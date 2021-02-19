@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet" type="text/css">
+    
+        <link href="style.css" rel="stylesheet">
+        <title>FCC: Product Landing Page</title>
+    </head>
+    <body>
+        <div id="page-container">
+            <header id="header">
+                <div class="logo">
+                    <img
+                        id="header-img"
+                        src="http://eluizatsuda.github.io/image/product-landing/Logo_StudiOn_T.png"
+                        alt="eLuh! StudiOn logo"
+                    />
+                </div>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#product">Product</a></li>
+                        <li><a class="nav-link" href="#howitworks">How it works</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <section id="about">
+                    <div id="email-list">
+                        <h3>Sign up for the monthly drawing and win a digital art.</h3>
+                        <form id="form" action="https://www.freecodecamp.com/email-submit">
+                            <input
+                                name="email"
+                                id="email"
+                                type="email"
+                                placeholder="Enter your email address"
+                                required
+                            />
+                            <input id="submit" type="submit" value="Sign up!" class="sel-button" />
+                        </form>
+                    </div>
+
+                    <h2>About</h2>
+                    <hr><br>
+                    <p class="center-text">
+                        We are your digital communication company. Our commitment is to exceed your expectations with personalized communication solutions. Highly qualified professionals are ready to work with your demands with creativity, innovative and attractive ideas.<br><br>
+                        Come and see our team and services. Our designers are waiting for you to create the art of your product. Let Digital StudiOn surprise you!<br><br>
+                    </p>
+                </section>
+
+                <section id="product">
+                    <h2>Product</h2>
+                    <hr><br>
+                    <p class="center-text">
+                        Meet some of our products in the video below, we work with any format and with high definition images.<br><br> 
+                        Personalize your party, your documents or packaging and show your company's face. Count on our creation for you to achieve great results.<br><br>
+                    </p>
+
+                    <div id="video-product">
+                
+                        <iframe id="video" width="500" height="300"
+                            src="https://www.youtube.com/embed/MAC1lNKtT1A" 
+                            frameborder="0" allowfullscreen>
+                        </iframe>
+                    
+                    </div>
+                    <br>
+                </section>
+
+                <section id="howitworks">
+                    <h2>How it works</h2>
+                    <hr><br>
+                    <div id="features">
+                        <div class="grid">
+                            <div class="icon">
+                                <img src="image/computer_orig-talk-small.png" alt="desenho computador com baloes de conversaçao">
+                            </div>
+                            <div class="desc">
+                                <h2>Tell us your need</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque commodi, doloremque placeat molestiae accusantium? Sit, quod repudiandae assumenda vero esse consequatur aliquid maxime officiis voluptas at libero omnis reiciendis!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="icon">
+                                <img src="image/computer_orig-plan-small.png" alt="desenho computador com plano escolhido">
+                            </div>
+                            <div class="desc">
+                                <h2>Choose your plan below</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officia et illum molestiae amet nulla, repellendus dolores unde corrupti quos laboriosam ab minus excepturi numquam voluptatibus assumenda esse beatae ipsum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="icon">
+                                <img src="image/computer_orig-down-small.png" alt="desenho computador com logo download">
+                            </div>
+                            <div class="desc">
+                                <h2>Online Delivery</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos necessitatibus optio velit impedit et sed totam ex explicabo eveniet corporis, assumenda tenetur porro adipisci vel deserunt, enim, aliquam minus soluta!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pricing">
+                        <div class="service" id="justone-plan">
+                            <p class="small-font">for individuals</p>
+                            <div class="level">Just One</div>
+                            <h2>$25</h2>
+                            <button class="sel-button">Get Started</button>
+                            <ol>
+                                <li>1 digital art</li>
+                                <li>1 h of online consulting</li>
+                                <li>Basic suggestions</li>
+                            </ol>
+                        </div>
+                        <div class="service" id="basic-plan">
+                            <p class="small-font">for individuals</p>
+                            <div class="level">Basic</div>
+                            <h2>$100 / month</h2>
+                            <button class="sel-button">Get Started</button>
+                            <ol>
+                                <li> </li>
+                                <li>5 digital arts per month</li>
+                                <li>2 hs of online consulting</li>
+                                <li>Basic suggestions</li>
+                                <li> </li>
+                            </ol>
+                        </div>
+                        <div class="service" id="premium-plan">
+                            <p class="small-font">for individuals</p>
+                            <div class="level">Premium</div>
+                            <h2>$180 / month</h2>
+                            <button class="sel-button">Get Started</button>
+                            <ol>
+                                <li>Everything in Basic plan</li>
+                                <li>10 digital arts per month</li>
+                                <li>5 hs of online consulting</li>
+                                <li>Advanced suggestions</li>
+                            </ol>
+                        </div>
+                        <div class="service" id="business-plan">
+                            <p class="small-font">for teams</p>
+                            <div class="level">Business</div>
+                            <h2>$400 / month</h2>
+                            <button class="sel-button">Get Started</button>
+                            <ol>
+                                <li>Everything in Premium plan</li>
+                                <li>20 digital arts per month</li>
+                                <li>10 hs of online or in-person consulting</li>
+                                <li> </li>
+                            </ol>
+                        </div>
+                        <div class="service" id="special-plan">
+                            <p class="small-font">for individuals and teams</p>
+                            <div class="level">Special</div>
+                            <h2>Special</h2>
+                            <button class="sel-button sel-button-special">Contact us</button>
+                            <br>
+                            <p class="small-font">
+                                Haven't found a plan that meets your needs? 
+                                We are waiting for you, please contact us.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <hr><br>
+                    <p class="center-text">
+                        If you are interested in speaking with Digital StudiOn about an upcoming project, there are a number of ways we can make that happen. Here’s all the info you need to get in touch.
+                    </p>
+                    <div id="contact_us">
+                        <section class="windows">
+                            <div id="inf-signup">
+                                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                                    <p class="title-contato-size">Sign up  to our mailing list </p>
+                                    <input 
+                                        type="email" 
+                                        id="email" 
+                                        placeholder="Please, enter your email address" 
+                                        name="email"
+                                        required>
+                                    <input type="submit" id="submit" value="Send" class="send-email">
+                                </form>
+                            </div>
+    
+                            <div id="inf-contact">
+                                <p class="title-contato-size">Mailing Address</p>
+                                <p class="contato-size">North Building</p>
+                                <p class="contato-size"> 999 Street Avenue #999</p>
+                                <p class="contato-size">North City</p>
+                                <p class="contato-size">A5B 3M0</p>
+                                <p class="contato-size">Country</p><br>
+                                <p class="title-contato-size">Telephone</p>
+                                <p class="contato-size">1-987-1234-5678</p><br>
+                                <p class="title-contato-size">Email</p>
+                                <p class="contato-size">hello-customer@studion.com</p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <footer>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <span>Copyright 2021, Digital StudiOn</span>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
