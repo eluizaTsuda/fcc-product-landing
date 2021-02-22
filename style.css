@@ -255,7 +255,7 @@ nav > ul {
   width: 100%;
 }
 
-#pricing {
+#pricing-plans {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -294,6 +294,18 @@ nav > ul {
   padding: 5px 0;
 }
 
+@media (max-width: 800px) {
+  #pricing-pans {
+    flex-direction: column;
+  }
+  .service {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
 .sel-button {
     padding: 0 20px;
     height: 40px;
@@ -315,18 +327,6 @@ nav > ul {
 
 .sel-button-special{
       background-color: var(--color-blue);
-}
-
-@media (max-width: 800px) {
-  #pricing {
-    flex-direction: column;
-  }
-  .service {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
 }
 
 footer {
