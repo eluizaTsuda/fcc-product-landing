@@ -35,7 +35,7 @@
 
             <div class="container">
                 <section id="about">
-                    <div id="email-list">
+                    <div class="email-drawing">
                         <h3>Sign up for the monthly drawing and win a digital art.</h3>
                         <form id="form" action="https://www.freecodecamp.com/email-submit">
                             <input
@@ -45,7 +45,8 @@
                                 placeholder="Enter your email address"
                                 required
                             />
-                            <input id="submit" type="submit" value="Sign up!" class="sel-button" />
+                            <input id="submit" type="submit" value="Sign up!" 
+                            class="send-email"/>
                         </form>
                     </div>
 
@@ -95,7 +96,7 @@
                                 <img src="image/computer_orig-plan-small.png" alt="desenho computador com plano escolhido">
                             </div>
                             <div class="desc">
-                                <h2>Choose your plan below</h2>
+                                <h2>Choose your pricing plan</h2>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officia et illum molestiae amet nulla, repellendus dolores unde corrupti quos laboriosam ab minus excepturi numquam voluptatibus assumenda esse beatae ipsum.
                                 </p>
@@ -125,7 +126,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <section id="pricing">
                     <br><h2>Pricing</h2>
                     <hr><br>
@@ -199,22 +200,47 @@
                     <p class="center-text">
                         If you are interested in speaking with Digital StudiOn about an upcoming project, there are a number of ways we can make that happen. Here’s all the info you need to get in touch.
                     </p>
-                    <div id="contact_us">
-                        <section class="windows">
-                            <div id="inf-signup">
+                    <div class="contact_us">
+
+                            <div class="inf-signup">
                                 <form action="https://www.freecodecamp.com/email-submit" id="form">
                                     <p class="title-contato-size">Sign up  to our mailing list </p>
                                     <input 
                                         type="email" 
                                         id="email" 
-                                        placeholder="Please, enter your email address" 
+                                        placeholder="Enter your email address" 
                                         name="email"
                                         required>
-                                    <input type="submit" id="submit" value="Send" class="send-email">
+                                    <input id="submit"
+                                    type="submit"  value="Sign up!" class="send-email">
                                 </form>
+                                <br><p>Follow us on social media, just click on the icons.</p><br>
+
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a href="https://www.instagram.com/doodles.by.luh/" target="_blank">
+                                                <img src="image/icon-instagram30px.png" alt="Icone Instagram">
+                                            </a>
+                                            
+                                            <a href="https://www.facebook.com/luiza.tsuda/" target="_blank">
+                                                <img src="image/icon-facebook30px.png" alt="Icone Facebook">
+                                            </a>
+
+                                            <a href="https://twitter.com/eLuh_Tsuda" target="_blank">
+                                                <img src="image/icon-twitter30px.png" alt="Icone Twitter">
+                                            </a>
+                                            
+                                            <a href="https://www.youtube.com/channel/UCwhopTYab67xnfv57dsZFwA" target="_blank">
+                                                <img src="image/icon-youtube30px.png" alt="Icone Youtube">
+                                            </a>
+                                        </p>
+                                    </li>
+                                </ul>
+
                             </div>
     
-                            <div id="inf-contact">
+                            <div class="inf-contact">
                                 <p class="title-contato-size">Mailing Address</p>
                                 <p class="contato-size">North Building</p>
                                 <p class="contato-size"> 999 Street Avenue #999</p>
@@ -226,7 +252,7 @@
                                 <p class="title-contato-size">Email</p>
                                 <p class="contato-size">hello-customer@studion.com</p>
                             </div>
-                        </section>
+
                     </div>
                 </section>
 

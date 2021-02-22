@@ -155,51 +155,6 @@ nav > ul {
     flex-direction: column;
   }
 }
-
-#email-list {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 130px;
-  margin-top: 100px;
-
-}
-
-
-#email-list > h2 {
-  margin-bottom: 0px;
-  word-wrap: break-word;
-
-}
-
-#email-list input[type='email'] {
-  max-width: 275px;
-  width: 100%;
-  padding: 5px;
-
-}
-
-#email-list input[type='submit'] {
-    background-color: var(--color-light-blue);
-    max-width: 100px;
-    width: 100%;
-    height: 30px;
-    margin: 15px 0;
-    border: 0;
-}
-
-#email-list input[type='submit']:hover {
-  background-color: var(--color-light-green);
-  transition: background-color 1s;
-}
-
-@media (max-width: 650px) {
-  #email-list {
-    margin-top:220px;
-    height: 170px;
-  }
-}
-
 #features {
   margin-top: 30px;
 }
@@ -294,8 +249,9 @@ nav > ul {
   padding: 5px 0;
 }
 
+/** Show the plans in a column **/ 
 @media (max-width: 800px) {
-  #pricing-pans {
+  #pricing-plans {
     flex-direction: column;
   }
   .service {
@@ -351,3 +307,93 @@ footer > span {
   font-size: 0.9em;
   color: var(--color-black);
 }
+
+/** Email **/ 
+ .email-drawing {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 130px;
+  margin-top: 100px;
+}
+@media (max-width: 650px) {
+  .email-drawing {
+    margin-top:240px;
+    height: 120px;
+  }
+}
+input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+  
+input[type='submit'] {
+  max-width: 100px;
+  width: 100%;
+  height: 28px;
+  margin: 17px 0;
+  border: 0;
+  background-color: var(--color-light-blue);
+}
+
+input[type='submit']:hover {
+  background-color: var(--color-light-green);
+  transition: background-color 1s;
+}
+
+.send-email {
+  padding: 0 15px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/** Contact **/
+.contact_us {
+  background-color: var(--color-gray);
+  padding: 0px;
+  margin: 0px;
+  height: 525px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.inf-contact, .inf-signup{
+  width: 45%;
+  /* float: left; */
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: table-cell;
+  background-color: rgba(105, 105, 107, 0.151);
+}
+
+.contato-size {
+  font-size: 18px;
+  color: red;
+}
+@media (max-width: 650px) {
+  .contato-size {
+    font-size: 16px;
+    color: rgb(245, 142, 24);
+  }
+}
+.title-contato-size{
+  font-size: 22px;
+  color: green;  
+} 
+@media (max-width: 650px) {
+  .title-contato-size {
+    font-size: 18px;
+    color: rgb(95, 241, 95);
+  }
+}
+
+
