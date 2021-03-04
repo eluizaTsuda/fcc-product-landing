@@ -33,8 +33,8 @@ header {
   justify-content: space-around;
   align-items: center;
   top: 0;
-  min-height: 75px;
-  padding: 0px 20px 30px;
+  min-height: 60px;
+  padding: 5px 30px 10px;
 }
 
 @media (max-width: 600px) {
@@ -50,7 +50,7 @@ header {
 @media (max-width: 650px) {
   .logo {
     margin-top: 15px;
-    width: 100%;
+    width: 80%;
     position: relative;
   }
 }
@@ -203,7 +203,7 @@ nav > ul {
   #features .desc {
     width: 100%;
     padding: 0;
-    height: 150px;
+    height: 170px;
     text-align: center;
   }
 }
@@ -354,9 +354,8 @@ input[type='submit']:hover {
 }
 @media (max-width: 650px) {
   .contact_us {
-    height: 650px;   
+    height: 500px;   
     flex-direction: column;
-    background-color: var(--color-light-gray);
   }
 }
 
@@ -423,8 +422,11 @@ input[type='submit']:hover {
   flex-direction: column;
   justify-content: center;
 }
-
-
+@media (max-width: 650px) {
+  .desc-contact {
+    height: 60px;   
+  }
+}
 
 footer {
   margin-top: 2px;
@@ -443,7 +445,6 @@ footer > span {
 
 @media (max-width: 650px) {
   footer > span {
-    font-size: 16px;
-    color: red;
+    font-size: .8em;
   }
 }
