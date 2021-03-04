@@ -352,6 +352,13 @@ input[type='submit']:hover {
   align-items: center;
   flex-direction: row;
 }
+@media (max-width: 650px) {
+  .contact_us {
+    height: 650px;   
+    flex-direction: column;
+    background-color: var(--color-light-gray);
+  }
+}
 
 .inf-contact, .inf-signup{
   width: 45%;
@@ -361,7 +368,11 @@ input[type='submit']:hover {
   padding-top: 10px;
   padding-bottom: 5px;
   display: table-cell;
-
+}
+@media all and (max-width: 650px) 
+{.inf-contact, .inf-signup{
+ width: 90%;
+}
 }
 
 
@@ -372,7 +383,7 @@ input[type='submit']:hover {
 }
 @media (max-width: 650px) {
   .contato-size {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .title-contato-size{
@@ -403,13 +414,6 @@ input[type='submit']:hover {
   justify-content: center;
 
 }
-
-@media (max-width: 550px) {
-  .icon-contact {
-    display: none;
-  }
-}
-
 
  .desc-contact {
   height: 100px;
