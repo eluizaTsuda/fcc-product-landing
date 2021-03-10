@@ -131,6 +131,7 @@ ul> li > a {
 }
 ul> li >  a:hover {
   background-color: var(--color-light-blue);
+  text-decoration: overline;
 }
 ul> li >  a:active {
  background-color: var(--color-light-green);
