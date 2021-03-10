@@ -8,7 +8,7 @@
   --color-light-green: #bcf4bc;
 
   --color-white: #f3f3f3;
-  --color-light-silver: #f7f7f7;
+  --color-light-silver: rgb(219, 217, 217);
   --color-light-gray: #eee;
   --color-gray: #c5c5c5;
   --color-black: #000000;
@@ -27,7 +27,7 @@ body {
 }
 
 header {
-  background-color: var(--color-gray);
+  background-color: var(--color-light-silver);
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -36,12 +36,12 @@ header {
   min-height: 60px;
   padding: 5px 30px 10px 30px;
 }
+
 @media (max-width: 1050px) {
   header {
     padding: 5px 130px 10px 80px; 
   }
 }
-  
 @media (max-width: 650px) {
   header {
     flex-wrap: wrap;
@@ -195,7 +195,7 @@ nav > ul {
 }
 
 #features .desc {
-  height: 125px;
+  height: 130px;
   width: 80vw;
   padding: 5px;
   display: flex;
@@ -203,8 +203,7 @@ nav > ul {
   justify-content: center;
 
 }
-
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   #features .desc {
     width: 100%;
     padding: 0;
