@@ -8,7 +8,7 @@
   --color-light-green: #bcf4bc;
 
   --color-white: #f3f3f3;
-  --color-light-silver: rgb(219, 217, 217);
+  --color-light-silver: #dbd9d9;
   --color-light-gray: #eee;
   --color-gray: #c5c5c5;
   --color-black: #000000;
@@ -434,7 +434,7 @@ input[type='submit']:hover {
 
 footer {
   margin-top: 2px;
-  background-color: var(--color-gray);
+  background-color: var(--color-light-silver);
   padding: 10px;
 
 }
