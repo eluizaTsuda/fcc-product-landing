@@ -3,11 +3,8 @@
   --color-light-blue: #ADC4DD;
   --color-dodger-blue: #2196F3;
   --color-cerulean-blue: #305eb3;
-
   --color-green: #008000;
   --color-light-green: #bcf4bc;
-
-  --color-white: #f3f3f3;
   --color-light-silver: #dbd9d9;
   --color-light-gray: #eee;
   --color-gray: #c5c5c5;
@@ -36,7 +33,6 @@ header {
   min-height: 60px;
   padding: 5px 30px 10px 30px;
 }
-
 @media (max-width: 1050px) {
   header {
     padding: 5px 130px 10px 80px; 
@@ -75,7 +71,6 @@ header {
   }
 }
 
-
 #page-container {
   position: relative;
 }
@@ -85,13 +80,11 @@ header {
   width: 100%;
   margin: 0 auto;
 }
-
 @media (max-width: 1050px) {
-    .inf-container {
-        margin: 160px auto auto auto;
-    }
+  .inf-container {
+     margin: 160px auto auto auto;
+  }
 }
-
 
 p {
     font-size: 18px;
@@ -120,7 +113,6 @@ p {
   display: flex;
 }
 
-
 li {
   list-style: none;
 }
@@ -141,17 +133,16 @@ nav {
   font-weight: 600;
   font-size: 18px;
 }
-
 @media (max-width: 650px) {
   nav {
     margin-top: 10px;
     width: 100%;
+    padding: 0 50px;
+    font-size: 16px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 50px;
-    font-size: 16px;    
    }
   nav li {
     padding-bottom: 5px;
@@ -164,7 +155,6 @@ nav > ul {
   flex-direction: row;
   justify-content: space-around;
 }
-
 @media (max-width: 1050px) {
   nav > ul {
     flex-direction: column;
@@ -174,7 +164,6 @@ nav > ul {
 #features {
   margin-top: 30px;
 }
-
 @media (max-width: 650px) {
   #features {
     margin-top: 0;
@@ -188,7 +177,6 @@ nav > ul {
   height: 125px;
   width: 20vw;
 }
-
 @media (max-width: 550px) {
   #features .icon {
     display: none;
@@ -202,7 +190,6 @@ nav > ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 @media (max-width: 750px) {
   #features .desc {
@@ -212,8 +199,6 @@ nav > ul {
     text-align: center;
   }
 }
-
-
 
 #video-product {
   margin-top: 50px;
@@ -291,7 +276,6 @@ nav > ul {
     margin: 15px 0;
     font-weight: 400;
 }
-  
 .sel-button:hover {
     background-color: var(--color-light-green);
     transition: background-color 1s;
@@ -301,9 +285,8 @@ nav > ul {
       background-color: var(--color-blue);
 }
 
-
 /** Email **/ 
- .email-drawing {
+.email-drawing {
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -321,7 +304,6 @@ input[type='email'] {
   width: 100%;
   padding: 5px;
 }
-  
 input[type='submit'] {
   max-width: 100px;
   width: 100%;
@@ -330,7 +312,6 @@ input[type='submit'] {
   border: 0;
   background-color: var(--color-light-blue);
 }
-
 input[type='submit']:hover {
   background-color: var(--color-light-green);
   transition: background-color 1s;
@@ -347,7 +328,6 @@ input[type='submit']:hover {
 
 /** Contact **/
 .contact_us {
-  /**background-color: var(--color-gray);**/
   padding: 0px;
   margin: 0px;
   height: 450px;
@@ -374,13 +354,10 @@ input[type='submit']:hover {
   display: table-cell;
 }
 @media all and (max-width: 650px) 
-{.inf-contact, .inf-signup{
+  {.inf-contact, .inf-signup{
  width: 90%;
+  }
 }
-}
-
-
-
 
 .contato-size {
   font-size: 18px;
@@ -400,7 +377,6 @@ input[type='submit']:hover {
   }
 }
 
-
 .contato-size > a {
   color:var(--color-cerulean-blue); 
   text-decoration: underline;
@@ -416,10 +392,9 @@ input[type='submit']:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
- .desc-contact {
+.desc-contact {
   height: 100px;
   width: 80vw;
   padding: 15px;
@@ -437,7 +412,6 @@ footer {
   margin-top: 2px;
   background-color: var(--color-light-silver);
   padding: 10px;
-
 }
 
 footer > span {
@@ -453,3 +427,7 @@ footer > span {
     font-size: .8em;
   }
 }
+
+
+
+ 
