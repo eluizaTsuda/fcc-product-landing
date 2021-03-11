@@ -5,9 +5,10 @@
   --color-cerulean-blue: #305eb3;
   --color-green: #008000;
   --color-light-green: #bcf4bc;
-  --color-light-silver: #dbd9d9;
-  --color-light-gray: #eee;
   --color-gray: #c5c5c5;
+  --color-light-gray: #eee;
+  --color-dark-gray: #8a8a8a;
+  --color-silver: #cfcfcf;
   --color-black: #000000;
   --color-purple: #51025b;
 }
@@ -25,7 +26,7 @@ body {
 }
 
 header {
-  background-color: var(--color-light-silver);
+  background-color: var(--color-silver);
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -412,7 +413,7 @@ input[type='submit']:hover {
 /* >>>>> Footer - Copyright <<<<< */
 footer {
   margin-top: 2px;
-  background-color: var(--color-light-silver);
+  background-color: var(--color-silver);
   padding: 10px;
 }
 
@@ -432,7 +433,7 @@ footer > span {
 
 /* >>>>> Footer - coded by eluh! <<<<< */
 .footer-signed {
-  background-color: var(--color-gray);
+  background-color: var(--color-dark-gray);
   color:var(--color-black);
   margin: 0px 0px 0px 0px;
   width: 100%;
