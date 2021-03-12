@@ -1,8 +1,9 @@
 :root{
   --color-blue:  #83acd8;
   --color-light-blue: #ADC4DD;
-  --color-dodger-blue: #2196F3;
+  --color-sky-blue: #87cefa;
   --color-cerulean-blue: #305eb3;
+  --color-forest-green: #71be71;
   --color-green: #008000;
   --color-light-green: #bcf4bc;
   --color-gray: #c5c5c5;
@@ -10,9 +11,8 @@
   --color-dark-gray: #8a8a8a;
   --color-silver: #cfcfcf;
   --color-black: #000000;
-  --color-purple: #51025b;
+  --color-purple: #680475;
 }
-
 
 * {
   margin: 0;
@@ -51,7 +51,7 @@ header {
 }
 @media (max-width: 650px) {
   .logo {
-    margin-top: 15px;
+    margin-top: 0px;
     width: 100%;
     position: relative;
   }
@@ -67,12 +67,11 @@ header {
   height: 100%;
   max-width: 300px;
 }
-@media (max-width: 1050px) {
+@media (max-width: 650px) {
   .logo > img {
-    margin: 0 auto;
+    margin: 0;
   }
 }
-
 #page-container {
   position: relative;
 }
@@ -104,7 +103,6 @@ p {
 .center-text {
     text-align: center;
 }
-
 .strong-black-font{
   font-weight:600;
   color: var(--color-black);
@@ -127,11 +125,11 @@ ul> li > a {
   text-decoration: none;
 }
 ul> li >  a:hover {
-  background-color: var(--color-light-blue);
+  background-color: var(--color-light-green);
   text-decoration: overline;
 }
 ul> li >  a:active {
- background-color: var(--color-light-green);
+ background-color:var(--color-forest-green);
 }
 
 nav {
@@ -140,22 +138,21 @@ nav {
 }
 @media (max-width: 650px) {
   nav {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 100%;
     padding: 0 50px;
-    font-size: 16px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
    }
   nav li {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
   }
 }
 
 nav > ul {
-  width: 35vw;
+  width:35vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -217,13 +214,14 @@ nav > ul {
 }
 
 #pricing-plans {
-  margin-top: 60px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .plans {
+  background-color:var(--color-light-blue);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,7 +229,7 @@ nav > ul {
   width: calc(100% / 5);
   margin: 10px;
   border: 1px solid #000;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .plans > .level {
@@ -241,6 +239,7 @@ nav > ul {
   width: 100%;
   text-transform: uppercase;
   font-weight: 700;
+  margin: 10px;
 }
 
 .plans > h2 {
@@ -275,20 +274,25 @@ nav > ul {
     font-weight: 900;
     text-transform: uppercase;
     border-radius: 2px;
-    background-color: var(--color-light-blue);
+    background-color: var(--color-blue);
     cursor: pointer;
-    border: 0;
+    border: dotted;
     margin: 15px 0;
     font-weight: 400;
+    border-radius: 5px;
 }
 .sel-button:hover {
     background-color: var(--color-light-green);
     transition: background-color 1s;
 }
+.sel-button:active {
+  background-color:var(--color-forest-green);
+}
 
 .sel-button-special{
-      background-color: var(--color-blue);
+      background-color: var(--color-sky-blue);
 }
+
 
 /** Email **/ 
 .email-drawing {
@@ -314,12 +318,17 @@ input[type='submit'] {
   width: 100%;
   height: 28px;
   margin: 17px 0;
-  border: 0;
+  border: 1;
+  border-radius: 5px;
   background-color: var(--color-light-blue);
 }
 input[type='submit']:hover {
   background-color: var(--color-light-green);
   transition: background-color 1s;
+}
+
+input[type='submit']:active {
+  background-color:var(--color-forest-green);
 }
 
 .send-email {
@@ -387,10 +396,10 @@ input[type='submit']:hover {
   text-decoration: underline;
 }
 .contato-size > a:hover {
-  color: var(--color-dodger-blue);
+  color: var(--color-green);
 }
 .contato-size > a:active {
-  color:var(--color-green);
+  color:var(--color-forest-green);
 }
 
 .icon-contact {
@@ -441,9 +450,10 @@ footer > span {
   margin: 0;
   width: 100%;
   height: 35px;
+  padding: 0px 10px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1175px) {
   .footer-signed {
     height: 55px;
   }
