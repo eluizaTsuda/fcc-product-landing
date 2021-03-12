@@ -98,7 +98,7 @@ p {
 .small-font14 {
   font-size: 14px;
 }
-.small-font {
+.small-font16 {
     font-size: 16px;
 }
 .center-text {
@@ -446,20 +446,17 @@ footer > span {
 @media (max-width: 1160px) {
   .footer-signed {
     height: 55px;
-    background-color:red;
   }
 }
 @media (max-width: 750px) {
   .footer-signed {
     height: 70px;
-    background:blue;
   }
 }
 @media (max-width: 550px) {
   .footer-signed {
     height: 100px;
     text-align: center;
-    background: yellow;
   }
 }
 
