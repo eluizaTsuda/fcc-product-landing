@@ -443,14 +443,23 @@ footer > span {
   height: 35px;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1160px) {
   .footer-signed {
-    height: 60px;
+    height: 55px;
+    background-color:red;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 750px) {
+  .footer-signed {
+    height: 70px;
+    background:blue;
+  }
+}
+@media (max-width: 550px) {
   .footer-signed {
     height: 100px;
+    text-align: center;
+    background: yellow;
   }
 }
 
