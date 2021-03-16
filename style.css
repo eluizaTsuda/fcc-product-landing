@@ -423,13 +423,13 @@ input[type='submit']:active {
 }
 
 /* >>>>> Footer - Copyright <<<<< */
-footer {
+.footer-copyright {
   margin-top: 2px;
   background-color: var(--color-silver);
   padding: 10px;
 }
 
-footer > span {
+.footer-copyright > span {
   margin-top: 5px;
   display: flex;
   justify-content: flex-end;
@@ -438,7 +438,7 @@ footer > span {
 }
 
 @media (max-width: 650px) {
-  footer > span {
+  .footer-copyright > span {
     font-size: .8em;
   }
 }
