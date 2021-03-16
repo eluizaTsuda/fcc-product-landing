@@ -46,6 +46,7 @@ header {
   }
 }
 
+/** >>>>> Header - logo <<<<< **/
 .logo {
   width: 60vw;
 }
@@ -56,7 +57,6 @@ header {
     position: relative;
   }
 }
-
 .logo > img {
   justify-content: center;
   align-items: center;
@@ -72,28 +72,14 @@ header {
     margin: 0;
   }
 }
-#page-container {
-  position: relative;
-}
 
-.inf-container {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 1050px) {
-  .inf-container {
-     margin: 160px auto auto auto;
-  }
-}
-
+/** >>>>> Formatting Text <<<<< **/
 p {
     font-size: 18px;
 }
 @media (max-width: 650px) {
     p {font-size: 16px;}
 }
-
 .small-font14 {
   font-size: 14px;
 }
@@ -112,6 +98,23 @@ p {
   color: var(--color-green);
 }
 
+/** >>>>> Container layout <<<<< **/
+#page-container {
+  position: relative;
+}
+
+.inf-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1050px) {
+  .inf-container {
+     margin: 160px auto auto auto;
+  }
+}
+
+/** >>>>> Styling lists  and  grid layout <<<<< **/
 .grid {
   display: flex;
 }
@@ -132,6 +135,7 @@ ul> li >  a:active {
  background-color:var(--color-forest-green);
 }
 
+/** >>>>> Header - Menu <<<<< **/
 nav {
   font-weight: 600;
   font-size: 18px;
@@ -163,16 +167,17 @@ nav > ul {
   }
 }
 
-#features {
+/** >>>>>> How it works Section <<<<< **/
+.features {
   margin-top: 30px;
 }
 @media (max-width: 650px) {
-  #features {
+  .features {
     margin-top: 0;
   }
 }
 
-#features .icon {
+.features .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,12 +185,12 @@ nav > ul {
   width: 20vw;
 }
 @media (max-width: 550px) {
-  #features .icon {
+  .features .icon {
     display: none;
   }
 }
 
-#features .desc {
+.features .desc {
   height: 130px;
   width: 80vw;
   padding: 5px;
@@ -194,7 +199,7 @@ nav > ul {
   justify-content: center;
 }
 @media (max-width: 750px) {
-  #features .desc {
+  .features .desc {
     width: 100%;
     padding: 0;
     height: 170px;
@@ -202,18 +207,20 @@ nav > ul {
   }
 }
 
-#video-product {
+/** >>>>>> Product Section - Video <<<<< **/
+.video-product {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-#video-product > iframe {
+.video-product > iframe {
   max-width: 560px;
   width: 100%;
 }
 
-#pricing-plans {
+/** >>>>>> Pricing Section <<<<< **/
+.pricing-plans {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -228,7 +235,7 @@ nav > ul {
   text-align: center;
   width: calc(100% / 5);
   margin: 10px;
-  border: 1px solid #000;
+  border: 1px solid var(--color-black);
   border-radius: 5px;
 }
 
@@ -254,9 +261,9 @@ nav > ul {
   padding: 5px 0;
 }
 
-/** Show the plans in a column **/ 
+/** Show the Pricing Plans in a column **/ 
 @media (max-width: 800px) {
-  #pricing-plans {
+  .pricing-plans {
     flex-direction: column;
   }
   .plans {
@@ -266,7 +273,7 @@ nav > ul {
     margin-bottom: 10px;
   }
 }
-
+/** >>>>>> button selection - Pricing Section <<<<< **/
 .sel-button {
     padding: 0 20px;
     height: 40px;
@@ -293,8 +300,7 @@ nav > ul {
       background-color: var(--color-sky-blue);
 }
 
-
-/** Email **/ 
+/** >>>>> Email <<<<< **/ 
 .email-drawing {
   align-items: center;
   justify-content: center;
@@ -326,7 +332,6 @@ input[type='submit']:hover {
   background-color: var(--color-light-green);
   transition: background-color 1s;
 }
-
 input[type='submit']:active {
   background-color:var(--color-forest-green);
 }
@@ -340,7 +345,7 @@ input[type='submit']:active {
   cursor: pointer;
 }
 
-/** Contact **/
+/** >>>>> Contact <<<<< **/
 .contact_us {
   padding: 0px;
   margin: 0px;
@@ -360,7 +365,6 @@ input[type='submit']:active {
 
 .inf-contact, .inf-signup{
   width: 45%;
-  /* float: left; */
   padding-right: 2.5%;
   padding-left: 2.5%;
   padding-top: 10px;
