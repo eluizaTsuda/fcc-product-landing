@@ -2,5 +2,4 @@
  freeCodeCamp: Responsive Web Design Projects - Build a Product Landing Page
 
 Inline-style: 
-![alt text](https://github.com/eLuizaTsuda/fcc-product-landing/image/Canva-m.png "Screenshot")
-
+![alt text](https://eluizatsuda.github.io/image/product-landing/Canva-m.png "Screenshot")
